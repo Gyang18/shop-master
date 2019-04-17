@@ -1,0 +1,3 @@
+# 忽略 webpack相关配置目录
+/config
+/scripts
