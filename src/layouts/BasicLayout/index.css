@@ -1,0 +1,49 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+}
+.ant-layout.ant-layout-has-sider{
+    height: 100vh;
+    overflow: hidden;
+}
+.ant-layout-header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 0 20px;
+}
+.ant-layout-header .trigger{
+    cursor: pointer;
+}
+.page-footer {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.logo {
+    width: 80%;
+    height: 48px;
+    background: #fff;
+    margin: 20px auto;
+}
+.aside-nav-item{
+  font-size: 16px;
+}
+.aside-nav-item .anticon {
+ font-size: 16px;
+}

@@ -1,12 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Order extends Component {
-  render() {
-    return (
-      <div className='App'>
-        <h1>订单页</h1>
-      </div>
-    )
-  }
+const Order = () => {
+  return (
+    <div className='App'>
+      <h1>订单页</h1>
+    </div>
+  )
 }
-export default Order
+export default Order()

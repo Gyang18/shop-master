@@ -1,12 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Workbench extends Component {
-  render() {
-    return (
-      <div className='App'>
-        <h1>工作台</h1>
-      </div>
-    )
-  }
+const Workbench = () => {
+  return (
+    <div className='App'>
+      <h1>工作台</h1>
+    </div>
+  )
 }
-export default Workbench
+export default Workbench()

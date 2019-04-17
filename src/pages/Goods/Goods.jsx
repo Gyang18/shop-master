@@ -1,12 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Goods extends Component {
-  render() {
-    return (
-      <div className='App'>
-        <h1>商品页</h1>
-      </div>
-    )
-  }
+const Goods = () => {
+  return (
+    <div className='App'>
+      <h1>商品页</h1>
+    </div>
+  )
 }
-export default Goods
+export default Goods()

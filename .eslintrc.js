@@ -18,7 +18,6 @@ module.exports = {
     //关闭使用解构赋值的检测
     'react/destructuring-assignment': [0, 'always'],
     // 解决require报错问题
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-    'react/prefer-stateless-function': [0]
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }]
   }
 }
