@@ -1,40 +1,72 @@
-.ant-layout.ant-layout-has-sider{
-    height: 100vh;
-    overflow: hidden;
+.ant-layout.ant-layout-has-sider {
+  height: 100vh;
+  overflow: hidden;
 }
-.ant-layout-header{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    padding: 0 20px;
+
+.ant-layout-header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 0 20px;
 }
-.ant-layout-header .trigger{
-    cursor: pointer;
+
+.ant-layout-header .trigger {
+  cursor: pointer;
 }
+
 .page-footer {
-    text-align: center;
-    font-size: 12px;
-    color: #666;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
 }
+
 .logo {
-    width: 80%;
-    height: 48px;
-    margin: 20px auto;
-    text-align: center;
-    h1 {
-        font-size: 22px;
-        color: #1890ff;
-        line-height: 48px;
-    }
+  width: 80%;
+  height: 48px;
+  margin: 20px auto;
+  text-align: center;
+
+  h1 {
+    font-size: 22px;
+    color: #1890ff;
+    line-height: 48px;
+  }
 }
-.aside-nav-item{
+
+.aside-nav-item {
   font-size: 16px;
 }
+
 .aside-nav-item .anticon {
- font-size: 16px;
+  font-size: 16px;
 }
-.ant-menu-vertical .ant-menu-item .anticon{
-font-size: 18px;
+
+.ant-menu-vertical .ant-menu-item .anticon {
+  font-size: 18px;
+}
+
+.nav-menu {
+  .nav-item {
+    padding: 0 10px;
+    transition: all .3s;
+    .name {
+      padding-left: 5px;
+      font-size: 14px;
+    }
+
+    &.icon-item {
+      font-size: 14px;
+      cursor: pointer;
+      .anticon {
+        font-size: 14px;
+        padding-right: 5px;
+        transition: all .3s;
+      }
+    }
+    &:hover {
+      color: #1890ff;
+    }
+  }
 }
