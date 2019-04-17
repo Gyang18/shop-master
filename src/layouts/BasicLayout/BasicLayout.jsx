@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Aside from './components/Aside'
 import Footer from './components/Footer'
 import MainRoute from './MainRoute'
-import './index.css'
+import './index.less'
 
 const { Content } = Layout
 export default class BasicLayout extends Component {
