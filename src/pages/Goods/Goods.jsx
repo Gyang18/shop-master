@@ -7,4 +7,4 @@ const Goods = () => {
     </div>
   )
 }
-export default Goods()
+export default Goods

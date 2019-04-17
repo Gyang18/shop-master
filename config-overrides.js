@@ -2,8 +2,7 @@
  * creata-react-app 自定义配置
  *
  * * */
-// eslint-disable
-const { override, fixBabelImports } = require('customize-cra')
+const { override, fixBabelImports, addLessLoader } = require('customize-cra')
 
 module.exports = override(
   // 实现按需加载antd 组件与css
@@ -11,5 +10,9 @@ module.exports = override(
     libraryName: 'antd',
     libraryDirectory: 'es',
     style: 'css'
+  }),
+  addLessLoader({
+    strictMath: true,
+    noIeCompat: true
   })
 )

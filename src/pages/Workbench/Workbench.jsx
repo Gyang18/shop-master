@@ -7,4 +7,4 @@ const Workbench = () => {
     </div>
   )
 }
-export default Workbench()
+export default Workbench

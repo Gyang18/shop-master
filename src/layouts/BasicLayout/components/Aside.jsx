@@ -6,7 +6,7 @@ import { asideMenu } from '../../../menuConfig'
 const { Sider } = Layout
 const Aside = props => {
   // 当前页面地址
-  const pathName = props.location.pathname
+  const pathName = props.location.pathname === '/' ? '/workbench' : props.location.pathname
   // 侧边栏状态
   const { collapsed } = props
   // 当前应该选中的菜单

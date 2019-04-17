@@ -10,4 +10,4 @@ const Header = props => {
     </Headers>
   )
 }
-export default Header()
+export default Header

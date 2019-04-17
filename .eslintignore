@@ -1,3 +1,2 @@
-# 忽略 webpack相关配置目录
-/config
-/scripts
+# 忽略不需要检测的文件
+/config-overrides.js
