@@ -13,7 +13,9 @@ const Aside = props => {
   const selectedArr = [pathName]
   return (
     <Sider trigger={null} collapsible collapsed={collapsed}>
-      <div className='logo' />
+      <div className='logo'>
+        <h1>Logo</h1>
+      </div>
       <Menu theme='dark' mode='inline' defaultSelectedKeys={selectedArr}>
         {asideMenu.map(grid => (
           <Menu.Item key={grid.path} title={grid.name}>

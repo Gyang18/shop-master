@@ -38,12 +38,19 @@
 .logo {
     width: 80%;
     height: 48px;
-    background: #fff;
     margin: 20px auto;
+    text-align: center;
+    h1 {
+        font-size: 16px;
+        color: #1890ff;
+    }
 }
 .aside-nav-item{
   font-size: 16px;
 }
 .aside-nav-item .anticon {
  font-size: 16px;
+}
+.ant-menu-vertical .ant-menu-item .anticon{
+font-size: 18px;
 }

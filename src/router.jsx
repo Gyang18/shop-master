@@ -3,7 +3,7 @@
  * * */
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import React from 'react'
-import BasicLayout from './layouts/BasicLayout'
+import BasicLayout from './layouts/BasicLayout/BasicLayout'
 import UserLayout from './layouts/UserLayout'
 /**
  * 按照layout 对路由进行分组
