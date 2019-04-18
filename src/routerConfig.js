@@ -9,6 +9,7 @@ import Workbench from './pages/Workbench'
 import Goods from './pages/Goods'
 // 订单管理
 import Order from './pages/Order'
+import Login from './pages/Login'
 // 默认路由模块
 const mainRouterConfig = [
   {
@@ -25,5 +26,10 @@ const mainRouterConfig = [
   }
 ]
 // 用户模块的路由
-const userRouterConfig = []
+const userRouterConfig = [
+  {
+    path: '/user/login',
+    component: Login
+  }
+]
 export { mainRouterConfig, userRouterConfig }

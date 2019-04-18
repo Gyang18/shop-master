@@ -16,7 +16,7 @@ export default class UserLayout extends Component {
       <Switch>
         {userRouterConfig.map(this.renderNormalRoute)}
         {/* 根路由默认重定向到 /user */}
-        <Redirect from='/user' to='/' />
+        <Redirect from='/user' to='/user/login' />
       </Switch>
     )
   }
