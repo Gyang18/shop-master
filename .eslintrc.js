@@ -12,6 +12,14 @@ module.exports = {
     }
   },
   plugins: ['react'],
+//让eslint能够识别alias别名
+  "settings": {
+    "import/resolver": {
+      "webpack":{
+        "config": "./webstorm.webpack.js"
+      }
+    }
+  },
   rules: {
     // 关闭react默认的props-type验证
     'react/prop-types': [0],
@@ -19,6 +27,6 @@ module.exports = {
     'react/destructuring-assignment': [0, 'always'],
     // 解决require报错问题
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-    "react/jsx-one-expression-per-line": [0]
+    'react/jsx-one-expression-per-line': [0]
   }
 }
