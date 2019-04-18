@@ -1,2 +1,3 @@
 # 忽略不需要检测的文件
 /config-overrides.js
+/webstorm.webpack.js
