@@ -24,7 +24,7 @@ module.exports = override(
     '@layouts': path.resolve(__dirname, 'src/layouts'),
     '@pages': path.resolve(__dirname, 'src/pages'),
     '@plug': path.resolve(__dirname, 'src/plugins'),
-    '@server': path.resolve(__dirname, 'src/server'),
+    '@api': path.resolve(__dirname, 'src/api'),
     '@utils': path.resolve(__dirname, 'src/utils'),
   })
 )
