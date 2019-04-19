@@ -9,7 +9,10 @@ import Workbench from './pages/Workbench'
 import Goods from './pages/Goods'
 // 订单管理
 import Order from './pages/Order'
+// 用户登陆
 import Login from './pages/Login'
+// 用户注册
+import Register from './pages/Register'
 // 默认路由模块
 const mainRouterConfig = [
   {
@@ -30,6 +33,10 @@ const userRouterConfig = [
   {
     path: '/user/login',
     component: Login
+  },
+  {
+    path: '/user/register',
+    component: Register
   }
 ]
 export { mainRouterConfig, userRouterConfig }
