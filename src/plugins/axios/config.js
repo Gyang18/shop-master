@@ -8,7 +8,7 @@
  * @param {Number} maxReqNum  重发请求最大数
  * */
 export default {
-  baseURL: process.env.VUE_APP_REQURL, // 请求地址
+  baseURL: process.env.REACT_API_UR, // 请求地址
   header: { 'Content-Type': 'application/json;charset=UTF-8' },
   timeout: 600000
 }
