@@ -1,14 +1,25 @@
 import React, { Component } from 'react'
 import { Form, Icon, Input, Button, Checkbox } from 'antd/lib/index'
 import { withRouter } from 'react-router-dom'
+import { userLogin } from '@api/user'
+
+// 用户登陆
+function postLogin(that, data) {
+  userLogin(data).then(res => {
+    if (res.code === 200) {
+      that.props.history.replace('/')
+    }
+  })
+}
 
 class NoramlForm extends Component {
+  // 表单提交
   handleSubmit = e => {
     e.preventDefault()
     this.props.form.validateFields((err, values) => {
       if (!err) {
         if (values) {
-          this.props.history.replace('/')
+          postLogin(this, values)
         }
       }
     })

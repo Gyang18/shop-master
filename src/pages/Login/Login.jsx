@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import loginBg from '@assets/login-bg.png'
-import './login.less'
 import LoginForm from './components/LoginForm'
+import './login.less'
 
 export default class Login extends Component {
   constructor(props) {
