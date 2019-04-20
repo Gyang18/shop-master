@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Icon, Input, Button, Checkbox } from 'antd'
+import { Form, Icon, Input, Button, Checkbox } from 'antd/lib/index'
 import { withRouter } from 'react-router-dom'
 
 class NoramlForm extends Component {
