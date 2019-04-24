@@ -21,7 +21,7 @@ const styles = {
 const NotFound = () => {
   return (
     <div className='basic-not-found'>
-      <Layout>
+      <Layout style={{ backgroundColor: '#fff' }}>
         <div style={styles.exceptionContent} className='exception-content'>
           <img src={notBg} style={styles.image} className='imgException' alt='页面不存在' />
           <div className='prompt'>
