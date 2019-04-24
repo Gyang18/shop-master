@@ -9,14 +9,12 @@ const Aside = props => {
   const pathName = props.location.pathname === '/' ? '/workbench' : props.location.pathname
   // 侧边栏状态
   const { collapsed } = props
-  // 当前应该选中的菜单
-  const selectedArr = [pathName]
   return (
     <Sider trigger={null} collapsible collapsed={collapsed}>
       <div className='logo'>
         <h1>LOGO</h1>
       </div>
-      <Menu theme='dark' mode='inline' defaultSelectedKeys={selectedArr}>
+      <Menu theme='dark' mode='inline' selectedKeys={[pathName]}>
         {asideMenu.map(grid => (
           <Menu.Item key={grid.path} title={grid.name}>
             <Link to={grid.path} className='aside-nav-item'>
