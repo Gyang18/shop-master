@@ -17,6 +17,11 @@ const asideMenu = [
     path: '/order',
     name: '订单',
     icon: 'ordered-list'
+  },
+  {
+    path: '/list',
+    name: '列表页',
+    icon: 'ordered-list'
   }
 ]
 export { headerMenu, asideMenu }
