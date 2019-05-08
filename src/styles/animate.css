@@ -1,17 +1,15 @@
 .my-node-enter {
     opacity: 0;
-    transform: scale(0.9);
 }
 .my-node-enter-active {
     opacity: 1;
-    transform: translateX(0);
-    transition: opacity 300ms, transform 300ms;
+    transition: all ease-in 0.5s;
 }
 .my-node-exit {
-    opacity: 1;
+    opacity: 0;
+    transition: ease-out 0.2s;
 }
 .my-node-exit-active {
     opacity: 0;
-    transform: scale(0.9);
-    transition: opacity 300ms, transform 300ms;
+    /*transition: opacity 200ms;*/
 }
