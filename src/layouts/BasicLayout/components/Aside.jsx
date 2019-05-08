@@ -17,7 +17,7 @@ const Aside = props => {
       <Menu theme='dark' mode='inline' selectedKeys={[pathName]}>
         {asideMenu.map(grid => (
           <Menu.Item key={grid.path} title={grid.name}>
-            <Link to={{ pathName: grid.path, state: { title: grid.name } }} className='aside-nav-item'>
+            <Link to={{ pathname: grid.path, state: { title: grid.name } }} className='aside-nav-item'>
               <Icon type={grid.icon || null} />
               <span>{grid.name}</span>
             </Link>
