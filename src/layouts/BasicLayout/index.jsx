@@ -28,7 +28,7 @@ export default class BasicLayout extends Component {
         <Aside collapsed={this.state.collapsed} />
         <Layout style={{ overflowY: 'auto', paddingTop: 64, position: 'relative' }}>
           <Header toggle={this.clickToggle} collapsed={this.state.collapsed} />
-          <Content style={{ minHeight: 280 }}>
+          <Content style={{ minHeight: 280, position: 'relative' }}>
             <MainRoute />
           </Content>
           <Footer />
