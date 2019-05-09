@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom'
 import 'normalize.css'
+import './styles/reset.css'
 import 'flex.css/dist/data-flex.css'
 import * as serviceWorker from './serviceWorker'
 import router from './router'
